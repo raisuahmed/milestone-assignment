@@ -66,6 +66,6 @@ function tinyFriend(friendList){
     }
      
 
- friendName=tinyFriend(["Rokon", "Liton", "Aminul", "Herok", "Soliman"]);
+ friendName=tinyFriend(["Rokoon", "Liton", "Aminul", "Herok", "Soliman"]);
 console.log(friendName);
 
