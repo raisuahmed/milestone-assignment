@@ -20,7 +20,7 @@ var totalWood = chairWoodFeet + tableWoodFeet + bedWoodFeet;
 return totalWood;
 }
 var woodResult = woodCalculator(14, 5, 12);
-console.log(" You need",woodResult, " cubic wood for all furniture");
+console.log(woodResult, " cubic wood for all furniture");
 
 
 
@@ -33,17 +33,17 @@ function brickCalculator(floor) {
     }
     else if (floor <= 10){
         brickIsNeeded = floor * 15 * perFeetBrick;
-        console.log("You need full of", brickIsNeeded, "bricks");
+        console.log( brickIsNeeded, "bricks");
         
     }
       else if (floor <= 20) {
           brickIsNeeded = (10 * 15 * perFeetBrick) + ((floor-10) * 12 * perFeetBrick);
-          console.log("You need full of ", brickIsNeeded, "bricks");
+          console.log( brickIsNeeded, "bricks");
           
       }
       else {
         brickIsNeeded = (10 * 15 * perFeetBrick) + (10 * 12 * perFeetBrick) + ((floor-20) * 10 * perFeetBrick);
-        console.log("You need full of ", brickIsNeeded, "bricks");
+        console.log( brickIsNeeded, "bricks");
     }
 }
 let floorIs = brickCalculator(23);
@@ -52,7 +52,7 @@ let floorIs = brickCalculator(23);
 
 
 
-4.//tinyFriend Solution
+4.//tinyFriend 
 
 function tinyFriend(friendList){
     var friend = friendList[0];
